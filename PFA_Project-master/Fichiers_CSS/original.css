@@ -1,0 +1,578 @@
+*{
+    list-style: none;
+    text-decoration: none !important;
+    position: relative;
+    overflow-x: hidden;
+    background-size: cover;
+    
+}
+.border{
+    border-bottom: solid 10px black;
+    width: 60%;
+    margin-left: 300px;
+}
+.Hero{
+    color: white;
+    padding-left: 30px;
+    width: 100%;
+    height: 891px;
+    background-repeat: no-repeat;
+    background-image: url("/main\ page\ images/Hero.jpg")
+    
+}
+.nav{
+    width: 100%;
+    justify-content: space-between !important;
+    font-weight: 600;
+}
+.topnav .icon {
+    display: none;
+}
+.m-3:hover{
+    padding-left: 10px;
+    
+    background-color: white;
+    
+    
+    
+}
+
+.hero-logo{
+    margin-left: 30px;
+    width: 191px;
+}
+a{
+    color: white !important;
+}
+.donate{
+    display: flex;
+    gap: 40px;
+}
+li button{
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-color: #DF0000;
+    width: 100px;
+    height: 37px;
+}
+.hero-text{
+    margin-top: 30px;
+}
+.hero-text h1{
+    font-size: 50px;
+    padding-left: 30px;
+    width: 800px;
+    color: white;
+    margin-top: 200px;
+    height: 150px;
+    line-height: 1.5;
+}
+.hero-text p{
+    padding-left: 30px;
+    font-size: 20px;
+    width: 630px;
+}
+.donation-b{
+    padding: 0;
+    margin-left: 60px;
+    color: white !important;
+    border: none !important;
+    width: 150px !important;
+    border-radius: 30px !important;
+    background-color: #DF0000 !important;
+    height: 45px !important;
+}
+.find{
+    border: solid !important;
+    color: white !important;
+    width: 150px !important;
+    border-radius: 30px !important;
+    background-color: rgba(0, 0, 0, 10%) !important;
+    height: 45px !important;
+}
+.h1{
+    font-size: 50px;
+    height: 63px;
+    color: #DF0000;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sec2{
+    width: 100%;
+    align-items: center;
+}
+.problem{
+    display: flex;
+}
+.easy{
+    width: 700px;
+    margin-right: 80px;
+}
+.who {
+    margin-left: 71px;
+    margin-right: 71px;
+    font-size: 20px;
+    text-align: center;
+}
+.sec3{
+    margin-left: 60px;
+}
+.exc{
+    width: 302px;
+    height: 294px;
+    margin-left: 150px;
+}
+.sec3 h2{
+    color: #DF0000;
+    font-size: 35px;
+    height: 50px;
+    margin-top: 35px;
+}
+.connect{
+    display: flex;
+}
+.many{
+    font-size: 20px;
+}
+.goal{
+    font-size: 20px;
+    width: 680px;
+}
+.trgt{
+    width: 302px;
+    height: 294px;
+    margin-left: 30px;
+    margin-right: 150px;
+}
+.process{
+    margin-left: 90px;
+    margin-right: 67px;
+    padding-left: 80px;
+}
+.num{
+    color: rgba(3, 3, 3, 0.2);
+    font-size: 110px;
+    height: 150px;
+}
+.works{
+    display: flex;
+    margin-right: 30px;
+    gap: 120px;
+}
+.acc{
+    width: 250px;
+}
+.rec{
+    height: 90px;
+    font-size: 29px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.col p{
+    font-size: 20px;
+}
+.test{
+    color: #ffffff;
+    width: 100%;
+    height: 461px;
+    background-color: #DF0000;
+}
+.bgg{
+    display: none;
+}
+h5{
+    height: 30px;
+    margin-left: 70px;
+}
+.test img{
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 60px; left: 640px;
+}
+.nom{
+    height: 30px;
+}
+.test p{
+    margin-top: 20px;
+    padding: 30px;
+}
+.component{
+    position: relative;
+    top: 50px; left: 580px;
+    margin-top: 15px;
+}
+.profile{
+    margin-top: 30px;
+    height: 220px;
+}
+.app{
+    display: flex;
+}
+.future{
+    position: relative;
+    right: 100px; top: 200px;
+    width: 600px;
+    height: 400px;
+}
+.future h2{
+    width: 600px;
+}
+.accordion {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border-bottom: solid 1px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  /* .active, .accordion:hover {
+    background-color: rgb(255, 255, 255); 
+  } */
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  .faqs{
+    width: 700px;
+    margin: auto ;
+
+  }
+.sec7{
+    height: auto;
+    background-color: #DF0000;
+    color: #ffffff; 
+}
+.sec7 h2{
+    font-size: 60px;
+    height: 160px;
+}
+.sec7 p{
+    font-size: 18px;
+}
+.sec7 .col-4{
+    margin-top: 180px;
+    padding-right: 56px;
+}
+.sec7 h6{
+    margin-top: 30px;
+    height: 30px;
+    font-size: 20px;
+}
+.partners{
+    margin: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+.bg{
+    background-color: #DF0000;
+}
+.cl{
+    color: white;
+}
+.w{
+    
+    width: 400px;
+}
+.footer-logo{
+    width: 130px;
+}
+footer{
+    display: flex;
+}
+@media (max-width: 768px) {
+    .hero-logo{
+        width: 130px;
+        margin-left: 8px;
+        margin-bottom: 13px;
+        justify-content: none;
+    }
+    .nav {
+        width: 100%;
+        font-size: 12px;
+        justify-content: none;
+    }
+    .hero-text h1{
+        width: 730px;
+        font-size: 45px;
+    }
+    .hero-text p{
+        width: 500px;
+    }
+    .border{
+        margin-left: 150px;
+    }
+    .problem{
+        display: flex;
+        flex-direction: column;
+    }
+    .rec{
+        font-size: 25px;
+    }
+    .easy{
+        width: 630px;
+    }
+    .connect{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .goal{
+        width: 630px;
+    }
+    .trgt{
+        position: relative;
+        left: 120px;
+    }
+    .profile{
+        position: relative;
+        right: 270px;
+    }
+    .nom{
+        width: auto;
+    }
+    .app{
+        flex-direction: column;
+    }
+    .app img {
+        width: 850px;
+        padding: 20px;
+        margin-left: 100px;
+    }
+    .future{
+        position: relative;
+        right: 0; top: 0;
+        left: 120px; bottom: 20px;
+        overflow-y: hidden;
+    }
+    .future p{
+        width: 500px;
+    }
+    .partners{
+        width: 80%;
+        justify-content: space-between;
+
+    }
+    .si7a{
+        width: 70px;
+    }
+    .tadamon{
+        width: 200px;
+    }
+    .footer-logo{
+        width: 100px;
+    }
+    .footer-text{
+        width: 110px;
+        padding: 0;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 425px){
+    .icon{
+        margin-right: 10px;
+        
+    }
+    .fa{
+        display: block;
+    }
+    .login{
+        display: none;
+    }
+    .topnav a{
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+    
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a.icon:hover {
+        font-size: 0px;
+    }
+    .hero-logo{
+        margin-top: 0%;
+        padding-bottom: 5px;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .icon{
+        font-size: 30px;
+    }
+  
+
+    #h1{
+        padding: 0;
+        margin-left: 0px;  
+        width: 350px;
+        font-size: 40px;
+        height: 200px;
+       
+    }
+    .donation-b{
+        margin-left: 0px;
+    }
+    #p{
+        padding: 0;
+        width: 350px;
+        padding-bottom: 10px;
+    }
+    .h1{
+        font-size: 30px;
+        margin-bottom:0px;
+    }
+    .who{
+        font-size: medium;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .border{
+        margin-left: 70px;
+
+    }
+    .sec3{
+        
+       margin: 13px;
+    }
+    .head1{
+
+        font-size: 30px;
+        
+        margin-left: 70px;
+    }
+
+    .many{
+        font-size: medium;
+
+        margin-right: 270px;
+        text-align: center;
+    }
+    
+    .exc{
+    
+    width: 302px;
+    height: 294px;
+    margin-left: 40px;
+    
+    }
+    h2{
+
+        font-size: 30px;
+        
+        margin-left: 100px;
+    }
+
+    .goal{
+        font-size: medium;
+
+        width: 360px;
+        text-align: center;
+    }
+    .trgt{
+      position: relative;
+      left: 20px;        
+    }
+    #h11{
+        margin-left: 20px;
+        margin-right: 20px;
+        height: auto;
+    }
+    
+    .container{
+        display: list-item;
+        margin-left: 20px;
+        
+    }
+    #fq{
+        margin-right: 300px;
+    }
+    .accordion{
+        margin-left: 20px;
+        font-size: 15px;
+        width: 350px;
+        
+        
+    }
+    .panel{
+        margin: 20px;
+        width: 365px;
+    }
+
+    .partners{
+        padding-left: 30Px;
+        
+        text-align: center;
+    }
+    
+    .si7a{
+        padding-bottom: 10px;
+    }
+    .w{
+       padding-bottom: 10px;
+    }
+    
+    footer  {
+        display: list-item;
+        
+    }
+    .footer-logo{
+        margin: 30px;
+    }
+    .p{
+        margin-left: 30px;
+        width: 360px;
+    }
+    .cont{
+        padding-bottom: 20px;
+        
+    }
+    .ico{
+        padding-left: 10px;
+    }
+    .c{
+        padding-bottom: 30px;
+    }
+    .saad{
+        display: none;
+    }
+    .nom{
+    display: none;
+    }
+    .apps{
+        margin-left: 0px;
+        display: none;
+        
+    }
+    .future{
+      display: none;
+    }
+    .bgg{
+        display: grid;
+        
+        margin-right: 300px;
+        height: auto;
+    }
+    
+
+}
+

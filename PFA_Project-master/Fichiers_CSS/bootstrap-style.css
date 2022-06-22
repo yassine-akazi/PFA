@@ -1,0 +1,9 @@
+.img{
+    height: 65px !important;
+    object-fit: contain !important;
+}
+
+#item{
+    border-left: solid white 2px;
+}
+
