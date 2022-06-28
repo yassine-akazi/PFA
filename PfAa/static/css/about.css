@@ -10,17 +10,27 @@ body{
     overflow-x: hidden;
     list-style: none !important;
 }
+.m-3:hover{
+    text-decoration: underline !important;
+
+    
+    
+    
+}
 
 .nav{
+    padding-top: 20px !important;
     margin: 0% !important;
     width: 100%;
+    
     list-style: none !important;
     justify-content: space-between !important;
-    background-image: url("/main\ page\ images/Hero.jpg")
+    background-image: url("/static/images/Hero.jpg")
     
 }
 .nav{
     width: 100%;
+    
     justify-content: space-between !important;
     font-weight: 600;
 }
@@ -73,11 +83,33 @@ li button{
     text-align: center;
 
 }
+.com{
+    margin-left: 90px !important;
+}
+h3{
+    color: white;
+}
+.ig{
+    margin-left: 90px !important;
+}
+.pt{
+    padding-top: 30px;
+    
+}
+.section3 img {
+    margin-left: 60px;
+}
 
 .section3{  
+    display: flex;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-right: 50px;
+    justify-content: space-between;
     margin-top: 50px;
    height: 329px;
    background-color: #DF0000;
+   background-size: cover;
 }
 .our{
     height: 100px;
@@ -115,9 +147,27 @@ h4{
 
 .cl{
     color: white;
+    gap: 170px;
+    padding-left: 60px;
 }
 .w{
-    width: 250px;
+    width: 290px;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #dddddd;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #DF0000;
+}
+footer{
+    display: flex !important;
+
+}
+.footer-logo{
+    width: 130px;
 }
 @media (max-width: 768px) {
     .hero-logo{
@@ -157,8 +207,10 @@ h4{
 @media (max-width: 425px){
     .icon{
         margin-right: 10px;
-        
+        font-size: 30px;
     }
+    
+    
     .fa{
         display: block;
     }
@@ -172,7 +224,7 @@ h4{
         float: right;
         display: block;
     }
-    
+
 }
 @media screen and (max-width: 425px) {
     .topnav.responsive {position: relative;}
@@ -185,5 +237,50 @@ h4{
       float: none;
       display: block;
       text-align: left;
+    }
+    footer{
+        padding-top: 40px;
+        padding-bottom:30px ;
+      flex-direction: column;
+      gap: 20px !important;
+      padding-left: 20px !important;
+    }
+    .section3 {
+        display: list-item;
+        height: auto;
+        text-align: center;
+        padding-bottom: 50px;
+        
+    }
+    .p{
+     padding-right: 0px !important;   
+     width: 250px !important;
+    }
+    .menu{
+        padding-left: 0px!important;
+    }
+    .imglocal{
+        margin-left: 0%;
+        width: 340px;
+    }
+    .section1{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .section2{
+        display: list-item;
+    }
+    .fs{
+        font-size: 30px !important;
+        padding-right: 70px;
+        
+    }
+    h4{
+        height: auto;
+       margin-top: 0px !important;
+    }
+    .section3 img {
+        margin-left: 0px !important;
+        
     }
 }

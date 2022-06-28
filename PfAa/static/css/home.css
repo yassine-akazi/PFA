@@ -17,9 +17,10 @@
     width: 100%;
     height: 891px;
     background-repeat: no-repeat;
-    background-image: url("/main\ page\ images/Hero.jpg")
+    background-image: url(../images/Hero.jpg);
+
     
-}
+} 
 .nav{
     width: 100%;
     justify-content: space-between !important;
@@ -29,14 +30,18 @@
     display: none;
 }
 .m-3:hover{
-    padding-left: 10px;
-    
-    background-color: white;
+    text-decoration: underline !important;
+
     
     
     
 }
-
+.sec5{
+    height: auto;
+}
+.goal{
+    height: auto;
+}
 .hero-logo{
     margin-left: 30px;
     width: 191px;
@@ -48,6 +53,9 @@ a{
     display: flex;
     gap: 40px;
 }
+.don{
+    padding-right: 80px !important;
+}
 li button{
     color: white;
     border: none;
@@ -56,6 +64,7 @@ li button{
     width: 100px;
     height: 37px;
 }
+
 .hero-text{
     margin-top: 30px;
 }
@@ -181,9 +190,21 @@ li button{
 .bgg{
     display: none;
 }
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #dddddd;
+}
+::-webkit-scrollbar-thumb{
+    background-color: red;
+}
 h5{
     height: 30px;
     margin-left: 70px;
+}
+.future h2 {
+    font-size: 50px !important;
 }
 .test img{
     width: 80px;
@@ -418,6 +439,7 @@ footer{
     }
     .icon{
         font-size: 30px;
+       
     }
   
 
@@ -533,6 +555,7 @@ footer{
     
     footer  {
         display: list-item;
+        padding-right: 0px !important;
         
     }
     .footer-logo{
@@ -555,9 +578,11 @@ footer{
     .saad{
         display: none;
     }
-    .nom{
-    display: none;
+    .b{
+        margin-left: 0px !important;
+       
     }
+
     .apps{
         margin-left: 0px;
         display: none;
@@ -572,7 +597,143 @@ footer{
         margin-right: 300px;
         height: auto;
     }
-    
-
+    .sec5{
+        margin-left: 0px !important;
+        padding-right: 30px;
+        position: relative;
+    }
+    .nom{
+   margin-right: 320px;
+    }
+    .don{
+        margin-right: 370px;
+    }
+    .who{
+        width: 330px;
+        margin-left: 30px !important;
+    }
+    .plus0 , .plus1 , .plus ,.s {
+        display: none;
+    }
+    footer{
+        padding-left: 0px !important;
+        height: auto;
+    }
+ 
 }
+.auto{
+    height: auto;
+    padding-left: 10px;
+}
+.sec7{
+    margin-top: 30px;
+}
+.sec2{
+    margin-top: 50px;
+}
+.sec3{
+    margin-top: 50px;
+}
+.sec5{
+    margin-top: 30px;background-color: #DF0000;
+    color: #dddddd;
+}
+.testimon{
+    padding-right: 50px;
+    
+}
+.cl{
+    padding-left: 100px;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+.p{
+    
+}
+.plus{
+    font-size: 30px;
+    margin-left: 470px;
+    margin-right: 0px !important;
+    
+}
+.plus0{
+    font-size: 30px;
+    margin-left: 260px !important;
+    margin-right: 0px !important;
+}
+.plus1{
+    font-size: 30px;
+    margin-left: 423px !important;
+    margin-right: 0px !important; 
+}
+#slideshow {
+    text-align: center;
+    overflow: hidden;
+    width: 728px;
+    margin: 0 auto;
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 330px;
+    width: 728px;
+  }
+  
+  .slide:nth-child(1) {
+    background: #DF0000;
+  }
+  
+  .slide:nth-child(2) {
+    background: #DF0000;
+  }
+  
+  .slide:nth-child(3) {
+    background: #DF0000;
+  }
+  
+  .slide:nth-child(4) {
+    background: #DF0000;
+  }
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+  }
+  
+h5{
+    height: 30px;
+}
+
+.slide img{
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.nom{
+    height: 30px;
+}
+.component{
+    position: relative;
+    top: 50px; left: 580px;
+    margin-top: 15px;
+}
+
+.profile{
+    margin-top: 30px;
+    height: 220px;
+}
+
+
 

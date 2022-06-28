@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    {%if custom_css %}
+    <link rel="stylesheet" href="{{url_for('static', filename='css/' + custom_css + '.css' )}}" >
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/boot.css' )}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/about.css' )}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/boot1.css' )}}">
+
+    {%endif%}
+
+    <title>{{ pagetitle }}</title>
+</head>
+<body>
+ 
+
+    <div class="Hero">
+        <header>
+            <nav class=" none nav mt-4 p-1 align-items-center">
+                <img class="hero-logo" src="{{ url_for('static', filename='./images/logo/looogo.svg') }}" alt="#">
+                <div class="topnav" id="myTopnav">
+                    <ul >
+                        <li>
+                            <a class="m-3 home" href="http://127.0.0.1:9000/">Home</a>
+                            <a class="m-3" href="">Donors</a>
+                            <a class="m-3" href="http://127.0.0.1:9000/about">About Us</a>
+                            <a class="m-3" href="http://127.0.0.1:9000/contact-us">Contact Us</a>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+                     <div class="login">
+                    <ul>
+                        <li >
+                            <a class="m-3" href="">Log in</a>
+                            <a class="m-3" href=""><button> Sign Up </button></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+{% block body %} 
+
+
+{% endblock %} 
+
+
+
+<footer class=" bg mt-5    cl none">
+    <img class="footer-logo"  src="{{ url_for('static', filename='./images/logo/logho70.svg') }}" alt="" class="logof mt-5   ">
+
+    <p class="footer-text mt-5 ml-3 p b">a reliable platform to connect nearby <br> blood donors with blood seekers.</p>
+    <ul class=" text-start pt-5 menu">
+        <li class=" fs-4">Contact</li>
+        <li>+ (123) 456 7890
+            </li>
+        <li>Donors@gmail.com</li>
+        <li class="cont">169 S Park Dr, Ilford IG39AD.</li>
+        <li class=" ic "><img  class=" p-lg-2 "  src="{{ url_for('static', filename='./images/icons/whatsapp.svg') }}" alt=""><img class="  p-lg-2"src="{{ url_for('static', filename='./images/icons/insta.svg') }}" alt=""><img class=" icos p-lg-2"src="{{ url_for('static', filename='./images/icons/facebook.svg') }}" alt=""></li>
+    </ul>
+    <ul class=" pt-5 menu">
+        <li class="fs-4">MENU</li>
+        <a href="http://127.0.0.1:9000/"> <li class="">Home</li> </a>
+        <li>Donors</li>
+        <a href="http://127.0.0.1:9000/about"><li>About Us </li></a>
+        <a href="http://127.0.0.1:9000/contact-us"><li class=" "> Contact Us</li></a>
+        <a href="http://127.0.0.1:9000/Privacy"><li>Privacy pilocy</li> </a>
+        <a href="http://127.0.0.1:9000/terms"><li>terms and conditions</li></a>
+        
+        
+    </ul>
+</footer>
+<!-- scripy responsive navbar -->
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+}
+</script>
+   <!-- javascript of section6 (FAQs)  -->
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+</body>
+</html>
