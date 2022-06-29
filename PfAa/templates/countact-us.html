@@ -6,30 +6,32 @@
             <h1>contact us </h1>
             <div class="text">
                 <h2>Contact Us if You Need Further Assistance.</h1>
-                <div class="text">
-                    <input type="text" name="Full name" id="" placeholder="Full Name">
-                    <input type="email" name="email" id="" placeholder="Email">
-                    <input class="msg" type="text" name="message" id="" placeholder="Message">
-                    <a class="m-3" href=""><button>Send</button></a>
-                </div>
+                <form class="text" action="/contact-us"  method='POST'>
+                    <input type="text" name="name" id="name" placeholder="Full Name">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <input class="msg" type="text" name="message" id="message" placeholder="Message">
+                    <a class="m-3" href="http://127.0.0.1:9000/congrat"><button type="submit" >Send</button></a>
+                </form>
             </div>
         </section>
     </header>
 </div>
 <section class="sec2">
-    <div>
-        <img src="" alt="">
+    <div class="dec">
+        <img class="iccon" src="{{ url_for('static', filename='./contact-us/Group 42.svg') }}" alt="">
         <h5>+ (123) 456 7890</h5>
+     
     </div>
-    <div>
-        <img src="" alt="">
+    <div class="dec">
+        <img class="iccon" src="{{ url_for('static', filename='./contact-us/envelope-solid 1 copy.svg') }}" alt="">
         <h5>Donors@gmail.com</h5>
     </div>
-    <div>
-        <img src="" alt="">
+    <div class="dec" >
+        <img class="iccon" src="{{ url_for('static', filename='./contact-us/location-dot-solid 1.svg') }}" alt="">
         <h5>169 S Park Dr, Ilford IG39AD.</h4>
     </div>
 
+    
 </section>
 </div>
-{% endblock %} 
+{% endblock %} !è

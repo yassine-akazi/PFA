@@ -3,6 +3,7 @@
     text-decoration: none !important;
     position: relative;
     overflow-x: hidden;
+    font-family: sans-serif; 
     
 }
 .border{
@@ -75,7 +76,8 @@ h2{
     text-align: center;
     height: 100px;
     color: black;
-    padding-right: 570px;
+    padding-right: 700px;
+    padding-left: 30px;
     margin-bottom: 50px;
 }
 input{
@@ -84,6 +86,7 @@ input{
     border: none;
     width: 500px;
     height: 70px;
+    outline: none;
     border-bottom: solid #888888 1px;
     margin-bottom: 15px;
     overflow-x: hidden;
@@ -208,5 +211,17 @@ button{
         padding-left: 10px;
     }
     
+
+}
+
+.dec{
+    display: flex;
+    gap: 10px;
+    
+}
+.iccon{
+    width: 20px;
+
+   
 
 }

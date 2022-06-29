@@ -71,7 +71,7 @@ li button{
     width: 855px;
     height: 559.13px;
     margin-right: 292px;
-    margin-left: 292px;
+    margin-left: 370px;
     margin-top: 50px;
 }
 .section2{
@@ -169,6 +169,9 @@ footer{
 .footer-logo{
     width: 130px;
 }
+.b{
+    padding-top: 40px !important;
+}
 @media (max-width: 768px) {
     .hero-logo{
         width: 130px;
@@ -232,6 +235,12 @@ footer{
       position: absolute;
       right: 0;
       top: 0;
+    }
+    .menuu{
+        width: 50px;
+    }
+    .menuu:hover{
+      height: 1px;
     }
     .topnav.responsive a {
       float: none;

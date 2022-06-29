@@ -4,6 +4,7 @@
     position: relative;
     overflow-x: hidden;
     background-size: cover;
+    font-family: sans-serif;
     
 }
 .border{
@@ -28,6 +29,9 @@
 }
 .topnav .icon {
     display: none;
+}
+.hero-text{
+    padding-top: 40px!important;
 }
 .m-3:hover{
     text-decoration: underline !important;
@@ -177,6 +181,10 @@ li button{
     height: 90px;
     font-size: 29px;
     color: rgba(0, 0, 0, 0.7);
+}
+.future{
+    font-size: 30px;
+   
 }
 .col p{
     font-size: 20px;
@@ -441,14 +449,19 @@ footer{
         font-size: 30px;
        
     }
-  
+    .menuu{
+        width: 30px !important ;
+    }
+    .don{
+        padding-left: 55px !important;
+    }
 
     #h1{
         padding: 0;
         margin-left: 0px;  
         width: 350px;
         font-size: 40px;
-        height: 200px;
+        height: auto;
        
     }
     .donation-b{

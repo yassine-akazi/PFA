@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% block body %} 
+    
+    <div>
+        <h1> Become a blood donor,</h1>
+        <h2>If you are completely new to blood donation:</h2>
+    </div>
+    <section>
+        <form method="POST">
+            <div class="input">    
+            <div class="name ">  
+            <div class="">
+                <h3>First Name:</h3>
+                
+                <input type="text" name="firstname" id="email = form_email" placeholder="First name"> 
+            </div>
+            <div>
+                <h3>Last Name:</h3>
+                <input type="text" name="lastname" id="lastname" placeholder="Last name">
+            </div>
+        </div>
+        
+            <h3>Your City:</h3>
+            <input type="text" name="city" placeholder="Your City">
+
+            <h3>Your Email:</h3>
+            <input type="email" name="email" placeholder="Your email">
+
+            <h3>Télé:</h3>
+            <input type="tel" name="number" placeholder="Phone Number ">
+  
+        
+        
+        
+            <h3>Enter Your Blood Type: &emsp; <span class="bloodtype">( 
+                A+, 
+                A-, 
+                B+, 
+                B-, 
+                AB+, 
+                AB-, 
+                O+, 
+                O-)</span></h3>
+            <input type="text" placeholder="Blood Type" name="typeblood">
+        </div>
+    </div>  
+        <h2 class="answer">Please answer with YES or NO: </h2>
+        <div class="input">
+            <h3>1 - Are you 18-75 years old ?</h3>
+            <input type="text" placeholder="YES or NO" name="years" >
+        </div>
+        <div class="input">
+            <h3>2 - Had a tattoo in the last 4 months ?</h3>
+            <input type="text" placeholder="YES or NO" name="tattoo" >
+        </div>
+        <div class="input">
+            <h3>3 - Are you pregnant or recently given birth ?</h3>
+            <input type="text" placeholder="YES or NO" name="birth" >
+        </div>
+        <div class="input">
+            <h3>4 - Do you have a heart condition ?</h3>
+            <input type="text" placeholder="YES or NO"  name="heart">
+        </div>
+        <div class="input">
+            <h3>5 - Are you low in iron ?</h3>
+            <input type="text" placeholder="YES or NO" name="iron">
+        </div>
+        <div class="input">
+            <h3>6 - Have you engaged in 'at risk' sexual activity in the past 3 months?</h3>
+            <input type="text" placeholder="YES or NO" name="risk">
+        </div>
+        <div class="input">
+            <h3>7 - Have you injected recreational drugs in the past 5 years?</h3>
+            <input type="text" placeholder="YES or NO" name="injected">
+        </div>
+
+    </div>
+    <button type="submit">Donate</button>
+        </form>
+    </section>
+{% endblock %} 
