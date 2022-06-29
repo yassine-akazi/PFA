@@ -103,5 +103,9 @@ def formule():
 def congrats():
   return render_template("congrats.html", pagetitle="congrats" , custom_css="about" )
 
+@app.route("/find")
+def find():
+  return render_template("find.html", pagetitle="find" , custom_css="find" )
+
 if __name__ == "__main__":  
   app.run(debug=True, port=9000)

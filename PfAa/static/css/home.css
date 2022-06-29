@@ -12,6 +12,10 @@
     width: 60%;
     margin-left: 300px;
 }
+.s{
+    font-size: 30px;
+    margin-left: 380px;
+}
 .Hero{
     color: white;
     padding-left: 30px;
@@ -22,6 +26,9 @@
 
     
 } 
+
+
+
 .nav{
     width: 100%;
     justify-content: space-between !important;
@@ -432,6 +439,10 @@ footer{
       position: absolute;
       right: 0;
       top: 0;
+    }
+    .donerss{
+        margin-right: 320px;
+       
     }
     .topnav.responsive a.icon:hover {
         font-size: 0px;
