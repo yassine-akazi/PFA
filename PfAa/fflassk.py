@@ -59,7 +59,7 @@ def contact():
     db.session.add(newcontact)
     db.session.commit()
     db.session.rollback()
-    return redirect('/contact-us')
+    return redirect('/congrat')
 
   return render_template("countact-us.html", pagetitle="cotact us" ,custom_css="countact" )
 
@@ -95,7 +95,7 @@ def formule():
     db.session.commit()
     db.session.rollback()
     
-    return redirect('/formule')
+    return redirect('/success')
 
   return render_template("formule.html", pagetitle="formule" , custom_css="formule" )
 
@@ -106,6 +106,10 @@ def congrats():
 @app.route("/find")
 def find():
   return render_template("find.html", pagetitle="find" , custom_css="find" )
+@app.route("/success")
+
+def succes():
+  return render_template("success.html", pagetitle="success" , custom_css="success" )
 
 if __name__ == "__main__":  
   app.run(debug=True, port=9000)

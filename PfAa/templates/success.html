@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block body %} 
+    <style>
+        footer{
+            display: none !important;
+        }
+    </style>
+    <div class="congrats">
+        <div class="bull">
+            <h1>Congratulations! You should be able to give blood. </h1>
+            <p>There are some other eligibility criteria, but things are looking super promising. We can't wait to see you soon.</p>
+        </div>
+        <div>
+            <img src="{{ url_for('static', filename='images/confirm message.svg') }}" alt="">
+        </div>
+    </div>
+{% endblock %} 

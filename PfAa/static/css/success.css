@@ -1,0 +1,48 @@
+*{
+    font-family: sans-serif;
+}
+.congrats{
+    display: flex;
+    margin-top: 70px  !important;
+    gap: 80px  !important;
+
+}
+.bull{
+    width: 700px !important;
+    max-width: auto !important;
+    margin-left: 50px !important;
+}
+h1{
+    
+    font-size: 70px !important;
+    color: #DF0000;
+}
+p{
+    color:#909090;
+    font-size: 25px; 
+    width: 500px ;
+}
+@media (max-width: 425px){
+    .congrats{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 40px;
+    }
+    .bull{
+        width: auto;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        color:#909090;
+        font-size: 15px;
+        width: auto;
+    }
+    img{
+        width: 200px;
+        padding-left: 80px;
+    }
+    
+}

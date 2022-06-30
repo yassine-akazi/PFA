@@ -4,7 +4,7 @@
     position: relative;
     overflow-x: hidden;
     background-size: cover;
-    font-family: sans-serif;
+    font-family: sans-serif !important;
     
 }
 .border{
@@ -30,6 +30,7 @@
 
 
 .nav{
+   
     width: 100%;
     justify-content: space-between !important;
     font-weight: 600;
@@ -699,7 +700,7 @@ footer{
   
   .slide-wrapper {
     width: 2912px;
-    -webkit-animation: slide 18s ease infinite;
+    -webkit-animation: slide 13s ease infinite;
   }
   
   .slide {
@@ -717,10 +718,6 @@ footer{
   }
   
   .slide:nth-child(3) {
-    background: #DF0000;
-  }
-  
-  .slide:nth-child(4) {
     background: #DF0000;
   }
   
