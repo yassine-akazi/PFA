@@ -1,4 +1,4 @@
-# Blood Donors using Flask and SQLAlchemy and 
+# Blood Donors using Flask and SQLAlchemy 
 
 > This project is a web application for managing blood donors using Flask, a Python web framework, and SQLAlchemy, a Python SQL toolkit and Object-Relational Mapping (ORM) library.
 
@@ -23,7 +23,7 @@ Before running this application, you will need to have the following installed:
 ### Installation
  1 - Clone this repository:
 ```
-git clone 
+git clone https://github.com/yassine-akazi/PFA.git
 ```
  3 - install the libraries:
  ```
